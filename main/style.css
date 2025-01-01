@@ -9,16 +9,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    /*
     border: 1px solid red;
+    */
     background-color: lightgray;
     height: 70px;
     width: 100%;
+    position: relative;
+}
+
+.doggy
+{
+    position: absolute; /* Use position to override from the header */
+    left: 10px;
 }
 
 .search-bar
 {
     display: flex;
-    justify-content: center;
     align-items: center;
     height: 40px;
 }
@@ -38,7 +46,7 @@
 
 .sidebar
 {
-    border: 1px solid blue;
+/* border: 1px solid blue; */
     background-color: lightgray;
     width: 100px;
     height: 100%;
